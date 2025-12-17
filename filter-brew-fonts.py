@@ -19,7 +19,7 @@ for i in (data):
 				continue
 			else:
 				# print(f"{', '.join(i['name'])} :: {i['url']} ")
-				raw_data += f"{', '.join(i['name'])} :: {i['url']}"
+				raw_data += f"{', '.join(i['name']):<60} :: {i['url']}\n"
 				newData.append(i)
 		else:
 				ignore += 1
